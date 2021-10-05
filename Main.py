@@ -1,3 +1,9 @@
+#You'll need several packages, use "pip install -package_name"
+#Required are: tensorflow, keras
+#You'll need 'em anyway: matplotlib, numpy, sklearn
+
+#note for some reason this crap only works with python 3.6.13 and no higher... i'm working on why ;)
+
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.layers import Dense, Flatten, Conv2D
